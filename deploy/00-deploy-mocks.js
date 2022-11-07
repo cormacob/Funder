@@ -26,4 +26,6 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
         log("------------------------------------------------")
     }
 }
+
+// tags allow us to run scripts we want as opposed to running all scripts
 module.exports.tags = ["all", "mocks"]
