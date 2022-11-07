@@ -6,7 +6,7 @@ import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 import "./PriceConverter.sol";
 
 // 3. Interfaces, Libraries, Contracts
- FundMe__NotOwner();
+error FundMe__NotOwner();
 
 /**@title A sample Funding Contract
  * @author Patrick Collins

@@ -2,6 +2,8 @@ const { assert } = require("chai")
 const { network, ethers, getNamedAccounts } = require("hardhat")
 const { developmentChains } = require("../../helper-hardhat-config")
 
+// this script only runs on testnets
+
 developmentChains.includes(network.name)
     ? describe.skip
     : describe("FundMe Staging Tests", function () {
